@@ -73,7 +73,7 @@ export class Model{
     for(let leaf of rootNode.leaves()){
       leaf.data['weight'] = (leaf.data['weight'] * 100) / sum;
     }
-    view.initColorArray(rootNode.children.length+1);
+    //view.initColorArray(rootNode.children.length+1);
     let polygon = this.getPolygon(rootNode);
     this.root_polygon = Polygon.from(polygon, polygon.site);
     this.root_polygon.center = new Point(view.width / 2, view.height / 2);

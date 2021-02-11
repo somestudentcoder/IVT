@@ -73,6 +73,8 @@ export class View{
     this.app.renderer.render(this.app.stage);
   }
 
+  // Not used. Served as starting point.
+  /*
   drawPoints(list: Array<Point>)
   {
     for(let p of list)
@@ -87,7 +89,8 @@ export class View{
     }
     this.app.renderer.render(this.stage);
   }
-
+  */
+ 
   drawPolygons(list: Array<Polygon>, upper: boolean)
   {
     for(let shape of list)
