@@ -111,14 +111,6 @@ id,name,parentId,weight
 5,Doris,3,20
 ```
 
-## Contributors ##
-
-Christopher Oser,
-Lisa Weissl,
-Markus Ruplitsch,
-Romana Gruber
-
-
 ## Licence ##
 
 MIT
